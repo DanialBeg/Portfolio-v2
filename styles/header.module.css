@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    position: fixed;
+    margin: 30px -30px;
+    z-index: 10;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
