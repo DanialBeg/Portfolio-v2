@@ -6,8 +6,7 @@ export default function Navbar() {
         <nav className={styles.navbar}>
             <div className={styles.options}>
                 <Link href="/">Home</Link>
-                <a href="/#about">About</a>
-                <a href="/#projects">Projects</a>
+                <Link href="/projects">Projects</Link>
                 <a href="/#contact">Contact</a>
             </div>
         </nav>
