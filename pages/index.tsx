@@ -14,7 +14,7 @@ export default function Home() {
       <section className={styles.main}>
         <div className={styles.content}>
           <h1 className={styles.title}>
-            Hey, I'm Danial 👋
+            Hey, I'm <span className={styles.awesome}>Danial</span> 👋
           </h1>
           <p>
             Welcome! I'm a Software Engineer based in San Diego, CA
